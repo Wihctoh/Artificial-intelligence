@@ -13,7 +13,8 @@ a {
   color: #fff;
 }
 /* -----------------Header -------------------------*/
-.header {
+.header,
+.footer {
   background-color: #08101e;
 }
 .header_wrapper {
@@ -381,13 +382,14 @@ ul {
   font-family: "Open Sans", sans-serif;
   max-width: 1146px;
   margin: auto;
-  padding: 0 15px;
+  padding: 170px 15px 170px;
   background-color: #020a18;
 }
 .page3_left {
   display: flex;
   flex-direction: column;
   max-width: 548px;
+  padding-top: 44px;
 }
 .page3_text1 {
   color: #fff;
@@ -411,3 +413,80 @@ ul {
 }
 .page3 {
 }
+/* -------------------------footer block 1------------------ */
+.footer_wrapper {
+  display: flex;
+  max-width: 1146px;
+  margin: auto;
+  padding: 0 15px 146px 15px;
+}
+.footer_block1 {
+  color: #fff;
+  max-width: 261px;
+}
+.footer_block1_img1 {
+  padding-top: 77px;
+}
+.footer_block1_text1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 15.9627px;
+  line-height: 22px;
+  color: #3a68b8;
+  padding-bottom: 10px;
+}
+.footer_block1_text2 {
+  font-family: "Circular Std";
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 18px;
+  color: grey;
+  padding-bottom: 37px;
+}
+.footer_block1_text3 {
+  display: flex;
+  font-family: "Circular Std";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  padding-bottom: 20px;
+}
+.mail {
+  padding-right: 10px;
+}
+.footer_block1_text4 {
+  display: flex;
+  font-family: "Circular Std";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  padding-bottom: 20px;
+}
+.phone {
+  padding-right: 10px;
+}
+.footer_block1_text5 {
+  display: flex;
+  font-family: "Circular Std";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  padding-bottom: 20px;
+}
+.geo {
+  padding-right: 10px;
+}
+/* -------------------------footer block 2------------------ */
+.footer_block2{
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+.footer_block2_text1{}
+.footer_block2_text2{}
+.footer_block2_text3{}
+.footer_block2_text4{}
+.footer_block2_text5{}
+.footer_block2_text6{}
+.footer_block2_text7{}
+
