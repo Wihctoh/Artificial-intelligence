@@ -14,6 +14,7 @@ a {
 }
 body {
   background-color: #08101e;
+  font-family: "Open Sans";
 }
 /* -----------------Header -------------------------*/
 .header,
@@ -51,7 +52,7 @@ ul {
 .header_nav {
   display: flex;
   color: #fff;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-size: 16px;
   font-weight: 600;
   line-height: 22px;
