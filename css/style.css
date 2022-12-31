@@ -64,6 +64,9 @@ ul {
   display: flex;
   gap: 40px;
 }
+li a:hover{
+  color: rgb(112, 125, 166);
+}
 .header_button {
   display: flex;
   align-items: center;
